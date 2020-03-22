@@ -6,6 +6,8 @@ using System.Linq;
 using System.Globalization;
 using System.Text;
 using static KindOfArt.kindOfArt;
+using System.Threading.Tasks;
+using Amazon.DynamoDBv2.Model;
 
 namespace KindOfArt
 {
@@ -13,6 +15,13 @@ namespace KindOfArt
     {
         public const string TYPE_SLOT = "KindOfArt";
         KindsOfART _chosenArtType = KindsOfART.Null;
+        private Task<ScanResponse> result;
+
+        public KindOfArtInfoIntentProcessor(Task<ScanResponse> result)
+        {
+            this.result = result;
+        }
+
         public override LexResponse Process(LexEvent lexEvent, ILambdaContext context)
         {
             IDictionary<string, string> slots = lexEvent.CurrentIntent.Slots;
@@ -35,17 +44,33 @@ namespace KindOfArt
 
         private String getMessageForChosenArtType(KindsOfART kindOfART)
         {
-            switch(kindOfART)
+            List<Item> kindOfArtItems = result.Result.Items.Select(Map).ToList();
+            String resultDescription = "I am so sorry :( We don't know about this art type yet. Could you please try again?";
+            foreach (Item item in kindOfArtItems)
             {
-                case KindsOfART.Impressionism:
-                    return "learn more about Impressionism";   
-                case KindsOfART.Modernism:
-                    return "learn more about Modernism";  
-                case KindsOfART.Realism:
-                    return "learn more about Realism";  
-                default:
-                    return "I am so sorry :( We don't know about this art type yet. Could you please try again?";
+                if (item.KindOfArtName.Equals(kindOfART.ToString()))
+                {
+                    resultDescription = item.Description;
+                    break;
+                }
             }
+
+            return resultDescription;
+        }
+
+        public class Item
+        {
+            public string KindOfArtName { get; set; }
+            public string Description { get; set; }
+        }
+
+        private Item Map(Dictionary<string, AttributeValue> result)
+        {
+            return new Item
+            {
+                KindOfArtName = result["KindOfArtName"].S,
+                Description = result["Description"].S
+            };
         }
 
         private ValidationResult ValidateKindOfArtType(string kindOfArtTypeString)

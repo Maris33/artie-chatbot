@@ -30,9 +30,9 @@ namespace DynamoDb_ARTieChatbot.Controllers
         }
 
         [Route("putItems")]
-        public IActionResult PutItem([FromQuery] int id, string replyDateTime)
+        public IActionResult PutItem([FromQuery] string kindOfArtName)
         {
-            _putItem.AddNewEntry(id, replyDateTime);
+            _putItem.AddNewEntry(kindOfArtName);
             return Ok();
         }
     }

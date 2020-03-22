@@ -10,7 +10,7 @@ namespace DynamoDb.Libs.DynamoDb
     public class CreateTable : ICreateTable
     {
         private readonly IAmazonDynamoDB _dynamoDbClient;
-        private static readonly string tableName = "Table";
+        private static readonly string tableName = "KindOfArtTable";
 
         public CreateTable(IAmazonDynamoDB dynamoDbClient)
         {
@@ -40,26 +40,16 @@ namespace DynamoDb.Libs.DynamoDb
                 {
                     new AttributeDefinition
                     {
-                        AttributeName = "Id",
-                        AttributeType = "N"
-                    },
-                    new AttributeDefinition
-                    {
-                        AttributeName = "ReplyDateTime",
-                        AttributeType = "N"
+                        AttributeName = "KindOfArtName",
+                        AttributeType = "S"
                     }
                 },
                 KeySchema = new List<KeySchemaElement>
                 {
                     new KeySchemaElement
                     {
-                        AttributeName = "Id",
+                        AttributeName = "KindOfArtName",
                         KeyType = "HASH"
-                    },
-                    new KeySchemaElement
-                    {
-                        AttributeName = "ReplyDateTime",
-                        KeyType = "Range"
                     }
                 },
                 ProvisionedThroughput = new ProvisionedThroughput

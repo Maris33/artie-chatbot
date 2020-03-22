@@ -7,6 +7,6 @@ namespace DynamoDb.Libs.DynamoDb
 {
     public interface IPutItem
     {
-        Task AddNewEntry(int id, string replyDateTime);
+        Task AddNewEntry(string kindOfArtName);
     }
 }

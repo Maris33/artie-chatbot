@@ -47,7 +47,7 @@ namespace DynamoDb_ARTieChatbot
                 });
             } else*/
             
-                services.AddAWSService<IAmazonDynamoDB>();
+         services.AddAWSService<IAmazonDynamoDB>();
             
 
             services.AddSingleton<ICreateTable, CreateTable>();

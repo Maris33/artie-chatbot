@@ -28,7 +28,7 @@ namespace KindOfArt
             Realism,
             Impressionism,
             Modernism,
-            Null
+            Null 
         }
     }
 }

@@ -15,22 +15,22 @@ namespace DynamoDb.Libs.DynamoDb
         {
             _dynamoClient = dynamoDB;
         }
-        public async Task AddNewEntry(int id, string replyDateTime)
+        public async Task AddNewEntry(string kindOfArtName)
         {
-            var queryRequest = RequestBuilder(id, replyDateTime);
+            var queryRequest = RequestBuilder(kindOfArtName);
             await PutItemAsync(queryRequest);
         }
-        private PutItemRequest RequestBuilder(int id, string replyDateTime)
+        private PutItemRequest RequestBuilder(string kindOfArtName)
         {
             var item = new Dictionary<string, AttributeValue>
             {
-                { "Id", new AttributeValue { N = id.ToString()}},
-                { "ReplyDateTime", new AttributeValue { N = replyDateTime}}
+                
+                { "KindOfArtName", new AttributeValue { N = kindOfArtName}}
 
             };
             return new PutItemRequest
             {
-                TableName = "Table",
+                TableName = "KindOfArtTable",
                 Item = item
             };
         }

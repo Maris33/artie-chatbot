@@ -1,0 +1,28 @@
+{
+  "KindOfArtTable": [
+    {
+      "PutRequest": {
+        "Item": {
+          "KindOfArtName": "Realism",
+          "Description": "Description about Realism is taken from DynamoDb."
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "KindOfArtName": "Impressionism",
+          "Description": "Description about Impressionism is taken from DynamoDb."
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "KindOfArtName": "Modernism",
+          "Description": "Description about Modernism is taken from DynamoDb."
+        }
+      }
+    }
+  ]
+}
