@@ -24,7 +24,7 @@ namespace KindOfArt
     {
         public static readonly RegionEndpoint EUWest1;
       
-        AmazonDynamoDBClient client = new AmazonDynamoDBClient("AKIAIBMCZUUFNEXDVSFA", "CmdQmaSWC0LE6zwTrv41yR8GaI1dY+VPlpmr5BXM", EUWest1);
+        AmazonDynamoDBClient client = new AmazonDynamoDBClient("", "", EUWest1);
         /// <summary>
         /// Then entry point for the Lambda function that looks at the current intent and calls 
         /// the appropriate intent process.
