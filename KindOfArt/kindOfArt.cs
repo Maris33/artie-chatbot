@@ -28,6 +28,11 @@ namespace KindOfArt
             Realism,
             Impressionism,
             Modernism,
+            Baroque,
+            Abstractionism,
+            Renaissance,
+            Romanticism,
+            Surrealism,
             Null 
         }
     }

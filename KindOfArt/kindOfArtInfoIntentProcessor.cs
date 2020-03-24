@@ -13,7 +13,7 @@ namespace KindOfArt
 {
     public class KindOfArtInfoIntentProcessor : AbstractIntentProcessor
     {
-        public const string TYPE_SLOT = "KindOfArt";
+        public const string TYPE_SLOT = "artKind";
         KindsOfART _chosenArtType = KindsOfART.Null;
         private Task<ScanResponse> result;
 
@@ -37,7 +37,7 @@ namespace KindOfArt
                         new LexResponse.LexMessage
                         {
                             ContentType = MESSAGE_CONTENT_TYPE,
-                            Content =String.Format(getMessageForChosenArtType(_chosenArtType))
+                            Content = String.Format(getMessageForChosenArtType(_chosenArtType))
                         }
                     );
         }
