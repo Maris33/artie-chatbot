@@ -32,6 +32,21 @@ namespace KindOfArt
                 }
             };
         }
+        protected LexResponse ElicitSlot(IDictionary<string, string> sessionAttributes, string intentName, IDictionary<string, string> slots, string slotToElicit, LexResponse.LexMessage message)
+        {
+            return new LexResponse
+            {
+                SessionAttributes = sessionAttributes,
+                DialogAction = new LexResponse.LexDialogAction
+                {
+                    Type = "ElicitSlot",
+                    IntentName = intentName,
+                    Slots = slots,
+                    SlotToElicit = slotToElicit,
+                    Message = message
+                }
+            };
+        }
 
     }
 }

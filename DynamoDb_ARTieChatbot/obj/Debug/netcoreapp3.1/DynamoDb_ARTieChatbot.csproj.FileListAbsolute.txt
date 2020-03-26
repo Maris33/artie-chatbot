@@ -99,4 +99,3 @@ D:\ZSTU-Study\Bachelor 2020\DynamoDb_ARTieChatbot\bin\Debug\netcoreapp3.1\Dynamo
 D:\ZSTU-Study\Bachelor 2020\DynamoDb_ARTieChatbot\bin\Debug\netcoreapp3.1\DynamoDb.Libs\obj\Debug\netcoreapp3.1\DynamoDb.Libs.AssemblyInfo.cs
 D:\ZSTU-Study\Bachelor 2020\DynamoDb_ARTieChatbot\bin\Debug\netcoreapp3.1\DynamoDb.Libs.dll
 D:\ZSTU-Study\Bachelor 2020\DynamoDb_ARTieChatbot\bin\Debug\netcoreapp3.1\DynamoDb.Libs.pdb
-D:\ZSTU-Study\Bachelor 2020\DynamoDb_ARTieChatbot\bin\Debug\netcoreapp3.1\KindOfArtTable.json

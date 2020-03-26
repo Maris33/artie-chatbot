@@ -30,7 +30,11 @@ namespace KindOfArt
             if (slots[TYPE_SLOT] != null)
             {
                 var validateKindOfArtType = ValidateKindOfArtType(slots[TYPE_SLOT]);
-
+                if (!validateKindOfArtType.IsValid)
+                {
+                    slots[validateKindOfArtType.ViolationSlot] = null;
+                    return ElicitSlot(sessionAttributes, lexEvent.CurrentIntent.Name, slots, validateKindOfArtType.ViolationSlot, validateKindOfArtType.Message);
+                }
 
             }
             return ArtTypeChosen(sessionAttributes, "Fulfilled",

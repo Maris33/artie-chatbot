@@ -1,0 +1,10 @@
+D:\ZSTU-Study\Bachelor 2020\ArtistInfo\obj\Release\netcoreapp2.1\rhel.7.2-x64\ArtistInfo.csprojAssemblyReference.cache
+D:\ZSTU-Study\Bachelor 2020\ArtistInfo\obj\Release\netcoreapp2.1\rhel.7.2-x64\ArtistInfo.AssemblyInfoInputs.cache
+D:\ZSTU-Study\Bachelor 2020\ArtistInfo\obj\Release\netcoreapp2.1\rhel.7.2-x64\ArtistInfo.AssemblyInfo.cs
+D:\ZSTU-Study\Bachelor 2020\ArtistInfo\bin\Release\netcoreapp2.1\rhel.7.2-x64\ArtistInfo.deps.json
+D:\ZSTU-Study\Bachelor 2020\ArtistInfo\bin\Release\netcoreapp2.1\rhel.7.2-x64\ArtistInfo.runtimeconfig.json
+D:\ZSTU-Study\Bachelor 2020\ArtistInfo\bin\Release\netcoreapp2.1\rhel.7.2-x64\ArtistInfo.runtimeconfig.dev.json
+D:\ZSTU-Study\Bachelor 2020\ArtistInfo\bin\Release\netcoreapp2.1\rhel.7.2-x64\ArtistInfo.dll
+D:\ZSTU-Study\Bachelor 2020\ArtistInfo\bin\Release\netcoreapp2.1\rhel.7.2-x64\ArtistInfo.pdb
+D:\ZSTU-Study\Bachelor 2020\ArtistInfo\obj\Release\netcoreapp2.1\rhel.7.2-x64\ArtistInfo.dll
+D:\ZSTU-Study\Bachelor 2020\ArtistInfo\obj\Release\netcoreapp2.1\rhel.7.2-x64\ArtistInfo.pdb
