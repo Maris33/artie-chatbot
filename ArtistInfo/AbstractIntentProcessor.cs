@@ -10,7 +10,7 @@ namespace ArtistInfo
     {
         internal const string MESSAGE_CONTENT_TYPE = "PlainText";
         public abstract LexResponse Process(LexEvent lexEvent, ILambdaContext context);
-        protected LexResponse ArtistChosen(IDictionary<string, string> sessionAttributes, string fulfillmentState, LexResponse.LexMessage message)
+        protected LexResponse ArtistChosen(IDictionary<string, string> sessionAttributes, string fulfillmentState, LexResponse.LexMessage message, LexResponse.LexResponseCard responseCard)
         {
             return new LexResponse
             {
@@ -19,7 +19,8 @@ namespace ArtistInfo
                 {
                     Type = "Close",
                     FulfillmentState = fulfillmentState,
-                    Message = message
+                    Message = message,
+                    ResponseCard = responseCard
                 }
             };
         }

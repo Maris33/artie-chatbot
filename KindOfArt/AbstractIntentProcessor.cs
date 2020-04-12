@@ -19,7 +19,7 @@ namespace KindOfArt
         public abstract LexResponse Process(LexEvent lexEvent, ILambdaContext context);
         
 
-        protected LexResponse ArtTypeChosen(IDictionary<string, string> sessionAttributes, string fulfillmentState, LexResponse.LexMessage message)
+        protected LexResponse ArtTypeChosen(IDictionary<string, string> sessionAttributes, string fulfillmentState, LexResponse.LexMessage message, LexResponse.LexResponseCard responseCard)
         {
             return new LexResponse
             {
@@ -28,7 +28,8 @@ namespace KindOfArt
                 {
                     Type = "Close",
                     FulfillmentState = fulfillmentState,
-                    Message = message
+                    Message = message,
+                    ResponseCard = responseCard
                 }
             };
         }

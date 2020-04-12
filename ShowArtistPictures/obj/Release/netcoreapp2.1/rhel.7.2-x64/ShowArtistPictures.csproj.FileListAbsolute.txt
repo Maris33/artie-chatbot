@@ -1,0 +1,10 @@
+D:\ZSTU-Study\Bachelor 2020\ShowArtistPictures\bin\Release\netcoreapp2.1\rhel.7.2-x64\ShowArtistPictures.deps.json
+D:\ZSTU-Study\Bachelor 2020\ShowArtistPictures\bin\Release\netcoreapp2.1\rhel.7.2-x64\ShowArtistPictures.runtimeconfig.json
+D:\ZSTU-Study\Bachelor 2020\ShowArtistPictures\bin\Release\netcoreapp2.1\rhel.7.2-x64\ShowArtistPictures.runtimeconfig.dev.json
+D:\ZSTU-Study\Bachelor 2020\ShowArtistPictures\bin\Release\netcoreapp2.1\rhel.7.2-x64\ShowArtistPictures.dll
+D:\ZSTU-Study\Bachelor 2020\ShowArtistPictures\bin\Release\netcoreapp2.1\rhel.7.2-x64\ShowArtistPictures.pdb
+D:\ZSTU-Study\Bachelor 2020\ShowArtistPictures\obj\Release\netcoreapp2.1\rhel.7.2-x64\ShowArtistPictures.csprojAssemblyReference.cache
+D:\ZSTU-Study\Bachelor 2020\ShowArtistPictures\obj\Release\netcoreapp2.1\rhel.7.2-x64\ShowArtistPictures.AssemblyInfoInputs.cache
+D:\ZSTU-Study\Bachelor 2020\ShowArtistPictures\obj\Release\netcoreapp2.1\rhel.7.2-x64\ShowArtistPictures.AssemblyInfo.cs
+D:\ZSTU-Study\Bachelor 2020\ShowArtistPictures\obj\Release\netcoreapp2.1\rhel.7.2-x64\ShowArtistPictures.dll
+D:\ZSTU-Study\Bachelor 2020\ShowArtistPictures\obj\Release\netcoreapp2.1\rhel.7.2-x64\ShowArtistPictures.pdb

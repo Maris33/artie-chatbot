@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ArtistInfo",
+    "\\ArtistInfo\\bin\\Debug",
+    "\\ArtistInfo\\bin\\Debug\\netcoreapp1.0",
+    "\\ArtistInfo\\bin\\Debug\\netcoreapp2.1",
+    "\\ArtistInfo\\Properties",
+    "\\DynamoDb_ARTieChatbot\\bin",
+    "\\DynamoDb_ARTieChatbot\\bin\\Debug"
+  ],
+  "SelectedNode": "\\DynamoDb_ARTieChatbot",
+  "PreviewInSolutionExplorer": false
+}

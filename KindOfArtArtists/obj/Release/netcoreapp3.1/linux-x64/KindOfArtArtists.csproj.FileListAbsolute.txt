@@ -1,0 +1,10 @@
+D:\ZSTU-Study\Bachelor 2020\KindOfArtArtists\obj\Release\netcoreapp3.1\linux-x64\KindOfArtArtists.csprojAssemblyReference.cache
+D:\ZSTU-Study\Bachelor 2020\KindOfArtArtists\obj\Release\netcoreapp3.1\linux-x64\KindOfArtArtists.AssemblyInfoInputs.cache
+D:\ZSTU-Study\Bachelor 2020\KindOfArtArtists\obj\Release\netcoreapp3.1\linux-x64\KindOfArtArtists.AssemblyInfo.cs
+D:\ZSTU-Study\Bachelor 2020\KindOfArtArtists\bin\Release\netcoreapp3.1\linux-x64\KindOfArtArtists.deps.json
+D:\ZSTU-Study\Bachelor 2020\KindOfArtArtists\bin\Release\netcoreapp3.1\linux-x64\KindOfArtArtists.runtimeconfig.json
+D:\ZSTU-Study\Bachelor 2020\KindOfArtArtists\bin\Release\netcoreapp3.1\linux-x64\KindOfArtArtists.runtimeconfig.dev.json
+D:\ZSTU-Study\Bachelor 2020\KindOfArtArtists\bin\Release\netcoreapp3.1\linux-x64\KindOfArtArtists.dll
+D:\ZSTU-Study\Bachelor 2020\KindOfArtArtists\bin\Release\netcoreapp3.1\linux-x64\KindOfArtArtists.pdb
+D:\ZSTU-Study\Bachelor 2020\KindOfArtArtists\obj\Release\netcoreapp3.1\linux-x64\KindOfArtArtists.dll
+D:\ZSTU-Study\Bachelor 2020\KindOfArtArtists\obj\Release\netcoreapp3.1\linux-x64\KindOfArtArtists.pdb

@@ -37,12 +37,20 @@ namespace KindOfArt
                 }
 
             }
+            List<LexResponse.LexGenericAttachments> attachments = new List<LexResponse.LexGenericAttachments>();
+            attachments.Add(getResponceAttachmentForChosenArtist(_chosenArtType));
+
             return ArtTypeChosen(sessionAttributes, "Fulfilled",
                         new LexResponse.LexMessage
                         {
                             ContentType = MESSAGE_CONTENT_TYPE,
                             Content = String.Format(getMessageForChosenArtType(_chosenArtType))
-                        }
+                        },
+                         new LexResponse.LexResponseCard
+                         {
+                             GenericAttachments = attachments,
+
+                         }
                     );
         }
 
@@ -54,12 +62,39 @@ namespace KindOfArt
             {
                 if (item.KindOfArtName.Equals(kindOfART.ToString()))
                 {
+                    
                     resultDescription = item.Description;
                     break;
                 }
             }
 
             return resultDescription;
+        }
+
+        private LexResponse.LexGenericAttachments getResponceAttachmentForChosenArtist(KindsOfART kindOfART)
+        {
+            List<Item> kindOfArtItems = result.Result.Items.Select(Map).ToList();
+            LexResponse.LexGenericAttachments buttonResponse = new LexResponse.LexGenericAttachments();
+            foreach (Item item in kindOfArtItems)
+            {
+                if (item.KindOfArtName.Equals(kindOfART.ToString()))
+                {
+                    List<LexResponse.LexButton> buttons = new List<LexResponse.LexButton>();
+                    LexResponse.LexButton lexButton = new LexResponse.LexButton();
+                    lexButton.Text = "Artists";
+                    lexButton.Value = "I would like to see artists of " + item.KindOfArtName;
+                    buttons.Add(lexButton);
+
+                    buttonResponse = new LexResponse.LexGenericAttachments()
+                    {
+                        Buttons = buttons,
+                        Title = "Artists for chosen kind of Art",
+                        SubTitle = "See the artists for chosen kind of Art"
+                    };
+                    break;
+                }
+            }
+            return buttonResponse;
         }
 
         public class Item

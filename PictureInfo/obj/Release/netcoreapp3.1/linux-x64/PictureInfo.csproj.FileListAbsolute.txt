@@ -1,0 +1,10 @@
+D:\ZSTU-Study\Bachelor 2020\PictureInfo\bin\Release\netcoreapp3.1\linux-x64\PictureInfo.deps.json
+D:\ZSTU-Study\Bachelor 2020\PictureInfo\bin\Release\netcoreapp3.1\linux-x64\PictureInfo.runtimeconfig.json
+D:\ZSTU-Study\Bachelor 2020\PictureInfo\bin\Release\netcoreapp3.1\linux-x64\PictureInfo.runtimeconfig.dev.json
+D:\ZSTU-Study\Bachelor 2020\PictureInfo\bin\Release\netcoreapp3.1\linux-x64\PictureInfo.dll
+D:\ZSTU-Study\Bachelor 2020\PictureInfo\bin\Release\netcoreapp3.1\linux-x64\PictureInfo.pdb
+D:\ZSTU-Study\Bachelor 2020\PictureInfo\obj\Release\netcoreapp3.1\linux-x64\PictureInfo.csprojAssemblyReference.cache
+D:\ZSTU-Study\Bachelor 2020\PictureInfo\obj\Release\netcoreapp3.1\linux-x64\PictureInfo.AssemblyInfoInputs.cache
+D:\ZSTU-Study\Bachelor 2020\PictureInfo\obj\Release\netcoreapp3.1\linux-x64\PictureInfo.AssemblyInfo.cs
+D:\ZSTU-Study\Bachelor 2020\PictureInfo\obj\Release\netcoreapp3.1\linux-x64\PictureInfo.dll
+D:\ZSTU-Study\Bachelor 2020\PictureInfo\obj\Release\netcoreapp3.1\linux-x64\PictureInfo.pdb

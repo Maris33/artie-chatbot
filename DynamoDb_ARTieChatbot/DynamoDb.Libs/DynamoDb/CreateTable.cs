@@ -10,7 +10,7 @@ namespace DynamoDb.Libs.DynamoDb
     public class CreateTable : ICreateTable
     {
         private readonly IAmazonDynamoDB _dynamoDbClient;
-        private static readonly string tableName = "ArtistsInfo";
+        private static readonly string tableName = "PicturesInfo";
 
         public CreateTable(IAmazonDynamoDB dynamoDbClient)
         {
@@ -40,7 +40,7 @@ namespace DynamoDb.Libs.DynamoDb
                 {
                     new AttributeDefinition
                     {
-                        AttributeName = "ArtistName",
+                        AttributeName = "PictureName",
                         AttributeType = "S"
                     }
                 },
@@ -48,7 +48,7 @@ namespace DynamoDb.Libs.DynamoDb
                 {
                     new KeySchemaElement
                     {
-                        AttributeName = "ArtistName",
+                        AttributeName = "PictureName",
                         KeyType = "HASH"
                     }
                 },
