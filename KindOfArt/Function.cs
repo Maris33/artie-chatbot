@@ -25,13 +25,6 @@ namespace KindOfArt
         public static readonly RegionEndpoint EUWest1;
       
         AmazonDynamoDBClient client = new AmazonDynamoDBClient("", "", EUWest1);
-        /// <summary>
-        /// Then entry point for the Lambda function that looks at the current intent and calls 
-        /// the appropriate intent process.
-        /// </summary>
-        /// <param name="input"></param>
-        /// <param name="context"></param>
-        /// <returns></returns>
         public LexResponse FunctionHandler(LexEvent lexEvent, ILambdaContext context)
         {
           
