@@ -1,0 +1,10 @@
+D:\ZSTU-Study\Bachelor 2020\KindOfArtArtists\bin\Debug\netcoreapp3.1\KindOfArtArtists.deps.json
+D:\ZSTU-Study\Bachelor 2020\KindOfArtArtists\bin\Debug\netcoreapp3.1\KindOfArtArtists.runtimeconfig.json
+D:\ZSTU-Study\Bachelor 2020\KindOfArtArtists\bin\Debug\netcoreapp3.1\KindOfArtArtists.runtimeconfig.dev.json
+D:\ZSTU-Study\Bachelor 2020\KindOfArtArtists\bin\Debug\netcoreapp3.1\KindOfArtArtists.dll
+D:\ZSTU-Study\Bachelor 2020\KindOfArtArtists\obj\Debug\netcoreapp3.1\KindOfArtArtists.csprojAssemblyReference.cache
+D:\ZSTU-Study\Bachelor 2020\KindOfArtArtists\obj\Debug\netcoreapp3.1\KindOfArtArtists.AssemblyInfoInputs.cache
+D:\ZSTU-Study\Bachelor 2020\KindOfArtArtists\obj\Debug\netcoreapp3.1\KindOfArtArtists.AssemblyInfo.cs
+D:\ZSTU-Study\Bachelor 2020\KindOfArtArtists\bin\Debug\netcoreapp3.1\KindOfArtArtists.pdb
+D:\ZSTU-Study\Bachelor 2020\KindOfArtArtists\obj\Debug\netcoreapp3.1\KindOfArtArtists.dll
+D:\ZSTU-Study\Bachelor 2020\KindOfArtArtists\obj\Debug\netcoreapp3.1\KindOfArtArtists.pdb

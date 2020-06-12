@@ -1,0 +1,3 @@
+db.lock
+bin
+.lambda-test-tool

@@ -1,0 +1,10 @@
+D:\ZSTU-Study\Bachelor 2020\KindOfArt\bin\Debug\netcoreapp2.1\KindOfArt.deps.json
+D:\ZSTU-Study\Bachelor 2020\KindOfArt\bin\Debug\netcoreapp2.1\KindOfArt.runtimeconfig.json
+D:\ZSTU-Study\Bachelor 2020\KindOfArt\bin\Debug\netcoreapp2.1\KindOfArt.runtimeconfig.dev.json
+D:\ZSTU-Study\Bachelor 2020\KindOfArt\bin\Debug\netcoreapp2.1\KindOfArt.dll
+D:\ZSTU-Study\Bachelor 2020\KindOfArt\obj\Debug\netcoreapp2.1\KindOfArt.csprojAssemblyReference.cache
+D:\ZSTU-Study\Bachelor 2020\KindOfArt\obj\Debug\netcoreapp2.1\KindOfArt.AssemblyInfoInputs.cache
+D:\ZSTU-Study\Bachelor 2020\KindOfArt\obj\Debug\netcoreapp2.1\KindOfArt.AssemblyInfo.cs
+D:\ZSTU-Study\Bachelor 2020\KindOfArt\bin\Debug\netcoreapp2.1\KindOfArt.pdb
+D:\ZSTU-Study\Bachelor 2020\KindOfArt\obj\Debug\netcoreapp2.1\KindOfArt.dll
+D:\ZSTU-Study\Bachelor 2020\KindOfArt\obj\Debug\netcoreapp2.1\KindOfArt.pdb

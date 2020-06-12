@@ -1,0 +1,10 @@
+D:\ZSTU-Study\Bachelor 2020\KindOfArt\bin\Release\netcoreapp2.1\rhel.7.2-x64\KindOfArt.deps.json
+D:\ZSTU-Study\Bachelor 2020\KindOfArt\bin\Release\netcoreapp2.1\rhel.7.2-x64\KindOfArt.runtimeconfig.json
+D:\ZSTU-Study\Bachelor 2020\KindOfArt\bin\Release\netcoreapp2.1\rhel.7.2-x64\KindOfArt.runtimeconfig.dev.json
+D:\ZSTU-Study\Bachelor 2020\KindOfArt\bin\Release\netcoreapp2.1\rhel.7.2-x64\KindOfArt.dll
+D:\ZSTU-Study\Bachelor 2020\KindOfArt\bin\Release\netcoreapp2.1\rhel.7.2-x64\KindOfArt.pdb
+D:\ZSTU-Study\Bachelor 2020\KindOfArt\obj\Release\netcoreapp2.1\rhel.7.2-x64\KindOfArt.csprojAssemblyReference.cache
+D:\ZSTU-Study\Bachelor 2020\KindOfArt\obj\Release\netcoreapp2.1\rhel.7.2-x64\KindOfArt.AssemblyInfoInputs.cache
+D:\ZSTU-Study\Bachelor 2020\KindOfArt\obj\Release\netcoreapp2.1\rhel.7.2-x64\KindOfArt.AssemblyInfo.cs
+D:\ZSTU-Study\Bachelor 2020\KindOfArt\obj\Release\netcoreapp2.1\rhel.7.2-x64\KindOfArt.dll
+D:\ZSTU-Study\Bachelor 2020\KindOfArt\obj\Release\netcoreapp2.1\rhel.7.2-x64\KindOfArt.pdb

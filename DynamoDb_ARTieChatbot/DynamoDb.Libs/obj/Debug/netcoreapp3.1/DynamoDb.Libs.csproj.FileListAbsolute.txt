@@ -1,0 +1,8 @@
+D:\ZSTU-Study\Bachelor 2020\DynamoDb_ARTieChatbot\DynamoDb.Libs\bin\Debug\netcoreapp3.1\DynamoDb.Libs.deps.json
+D:\ZSTU-Study\Bachelor 2020\DynamoDb_ARTieChatbot\DynamoDb.Libs\bin\Debug\netcoreapp3.1\DynamoDb.Libs.dll
+D:\ZSTU-Study\Bachelor 2020\DynamoDb_ARTieChatbot\DynamoDb.Libs\obj\Debug\netcoreapp3.1\DynamoDb.Libs.csprojAssemblyReference.cache
+D:\ZSTU-Study\Bachelor 2020\DynamoDb_ARTieChatbot\DynamoDb.Libs\obj\Debug\netcoreapp3.1\DynamoDb.Libs.AssemblyInfoInputs.cache
+D:\ZSTU-Study\Bachelor 2020\DynamoDb_ARTieChatbot\DynamoDb.Libs\obj\Debug\netcoreapp3.1\DynamoDb.Libs.AssemblyInfo.cs
+D:\ZSTU-Study\Bachelor 2020\DynamoDb_ARTieChatbot\DynamoDb.Libs\bin\Debug\netcoreapp3.1\DynamoDb.Libs.pdb
+D:\ZSTU-Study\Bachelor 2020\DynamoDb_ARTieChatbot\DynamoDb.Libs\obj\Debug\netcoreapp3.1\DynamoDb.Libs.dll
+D:\ZSTU-Study\Bachelor 2020\DynamoDb_ARTieChatbot\DynamoDb.Libs\obj\Debug\netcoreapp3.1\DynamoDb.Libs.pdb

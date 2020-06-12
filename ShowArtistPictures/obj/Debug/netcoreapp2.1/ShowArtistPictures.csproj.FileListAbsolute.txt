@@ -1,0 +1,10 @@
+D:\ZSTU-Study\Bachelor 2020\ShowArtistPictures\bin\Debug\netcoreapp2.1\ShowArtistPictures.deps.json
+D:\ZSTU-Study\Bachelor 2020\ShowArtistPictures\bin\Debug\netcoreapp2.1\ShowArtistPictures.runtimeconfig.json
+D:\ZSTU-Study\Bachelor 2020\ShowArtistPictures\bin\Debug\netcoreapp2.1\ShowArtistPictures.runtimeconfig.dev.json
+D:\ZSTU-Study\Bachelor 2020\ShowArtistPictures\bin\Debug\netcoreapp2.1\ShowArtistPictures.dll
+D:\ZSTU-Study\Bachelor 2020\ShowArtistPictures\obj\Debug\netcoreapp2.1\ShowArtistPictures.csprojAssemblyReference.cache
+D:\ZSTU-Study\Bachelor 2020\ShowArtistPictures\obj\Debug\netcoreapp2.1\ShowArtistPictures.AssemblyInfoInputs.cache
+D:\ZSTU-Study\Bachelor 2020\ShowArtistPictures\obj\Debug\netcoreapp2.1\ShowArtistPictures.AssemblyInfo.cs
+D:\ZSTU-Study\Bachelor 2020\ShowArtistPictures\bin\Debug\netcoreapp2.1\ShowArtistPictures.pdb
+D:\ZSTU-Study\Bachelor 2020\ShowArtistPictures\obj\Debug\netcoreapp2.1\ShowArtistPictures.dll
+D:\ZSTU-Study\Bachelor 2020\ShowArtistPictures\obj\Debug\netcoreapp2.1\ShowArtistPictures.pdb

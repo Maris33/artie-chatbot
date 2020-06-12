@@ -1,0 +1,7 @@
+D:\ZSTU-Study\Bachelor 2020\GetPictureInfo\bin\Debug\netcoreapp3.1\GetPictureInfo.deps.json
+D:\ZSTU-Study\Bachelor 2020\GetPictureInfo\bin\Debug\netcoreapp3.1\GetPictureInfo.runtimeconfig.json
+D:\ZSTU-Study\Bachelor 2020\GetPictureInfo\bin\Debug\netcoreapp3.1\GetPictureInfo.runtimeconfig.dev.json
+D:\ZSTU-Study\Bachelor 2020\GetPictureInfo\bin\Debug\netcoreapp3.1\GetPictureInfo.dll
+D:\ZSTU-Study\Bachelor 2020\GetPictureInfo\obj\Debug\netcoreapp3.1\GetPictureInfo.csprojAssemblyReference.cache
+D:\ZSTU-Study\Bachelor 2020\GetPictureInfo\obj\Debug\netcoreapp3.1\GetPictureInfo.AssemblyInfoInputs.cache
+D:\ZSTU-Study\Bachelor 2020\GetPictureInfo\obj\Debug\netcoreapp3.1\GetPictureInfo.AssemblyInfo.cs
